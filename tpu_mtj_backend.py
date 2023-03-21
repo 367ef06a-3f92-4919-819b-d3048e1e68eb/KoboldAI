@@ -1095,7 +1095,7 @@ def read_neox_checkpoint(state, path, config, checkpoint_shards=2):
 
     koboldai_vars.status_message = ""
 
-def load_model(path: str, driver_version="tpu_driver0.1", hf_checkpoint=False, socketio_queue=None, initial_load=False, logger=None, **kwargs) -> None:
+def load_model(path: str, driver_version="tpu_driver0.2", hf_checkpoint=False, socketio_queue=None, initial_load=False, logger=None, **kwargs) -> None:
     global thread_resources_env, seq, tokenizer, network, params, pad_token_id
     print("Using driver version: ", driver_version)
 
