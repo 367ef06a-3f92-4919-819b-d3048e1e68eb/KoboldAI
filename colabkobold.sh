@@ -111,7 +111,7 @@ fi
 # Install and/or Update KoboldAI
 if [ "$init" != "skip" ]; then
     cd /content
-    git=https://github.com/DFXLuna/KoboldAI-Client
+    git=https://github.com/DFXLuna/KoboldAI
 
     mkdir /content/KoboldAI-Client
     cd /content/KoboldAI-Client
