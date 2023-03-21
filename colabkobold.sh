@@ -111,19 +111,7 @@ fi
 # Install and/or Update KoboldAI
 if [ "$init" != "skip" ]; then
     cd /content
-    if [ ! -z ${git+x} ]; then
-        if [ "$git" == "Official" ]; then
-            git=https://github.com/koboldai/KoboldAI-Client
-        fi
-        if [ "$git" == "United" ]; then
-            git=https://github.com/henk717/KoboldAI-Client
-        fi
-        if [ "$git" == "united" ]; then
-            git=https://github.com/henk717/KoboldAI-Client
-        fi
-    else
-        git=https://github.com/koboldai/KoboldAI-Client
-    fi
+    git=https://github.com/DFXLuna/KoboldAI-Client
 
     mkdir /content/KoboldAI-Client
     cd /content/KoboldAI-Client
