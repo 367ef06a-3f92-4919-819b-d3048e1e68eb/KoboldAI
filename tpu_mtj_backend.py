@@ -1097,6 +1097,7 @@ def read_neox_checkpoint(state, path, config, checkpoint_shards=2):
 
 def load_model(path: str, driver_version="tpu_driver0.2-alpha", hf_checkpoint=False, socketio_queue=None, initial_load=False, logger=None, **kwargs) -> None:
     global thread_resources_env, seq, tokenizer, network, params, pad_token_id
+    print("Using driver version: ", driver_version)
 
     if "pad_token_id" in kwargs:
         pad_token_id = kwargs["pad_token_id"]
