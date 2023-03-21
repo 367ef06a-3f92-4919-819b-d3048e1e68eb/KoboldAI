@@ -2,9 +2,9 @@ torch >= 1.9, < 1.13
 numpy
 tqdm
 requests
-dm-haiku == 0.0.9
-jax == 0.4.1
-jaxlib == 0.4.1
+dm-haiku == 0.0.5
+jax == 0.3.25
+jaxlib == 0.3.25
 transformers == 4.25.1
 huggingface_hub==0.12.1
 progressbar2
