@@ -18,7 +18,7 @@ os.chdir(__file__)
 os.environ['EVENTLET_THREADPOOL_SIZE'] = '1'
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"]="false"
-os.environ["XLA_PYTHON_CLIENT_MEM_FRACTION"]=".XX"
+os.environ["XLA_PYTHON_CLIENT_MEM_FRACTION"]=".01"
 os.environ["XLA_PYTHON_CLIENT_ALLOCATOR"]="platform"
 from eventlet import tpool
 
